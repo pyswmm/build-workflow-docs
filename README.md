@@ -14,15 +14,24 @@ PySWMM versions are built and released with a multi-step workflow and requires s
 
 ## Requirements and Resources
 
-##### Machine Requirements
+##### Machine/Compiler Requirements
 
-- 
-
-
+|                 | Windows 2022          | Ubuntu-20.04 | macOS-10.15                 |
+| --------------- | --------------------- | ------------ | --------------------------- |
+| Compiler        | Visual Studio 17 2022 | gcc          | clang /  Xcode              |
+| CPU             |                       |              | Intel, Only (M1/M2, Coming) |
+| Instruction Set | x64                   | x64          |                             |
+| Experimental ?  | False                 | True         | True                        |
 
 ##### Software Requirements
 
-- 
+|                    | Windows 2022 | Ubuntu-20.04 | macOS-10.15 |
+| ------------------ | ------------ | ------------ | ----------- |
+| cmake              |              |              |             |
+| python             |              |              |             |
+| swig               |              |              |             |
+| boost              |              |              |             |
+| Git/Github account |              |              |             |
 
 
 
